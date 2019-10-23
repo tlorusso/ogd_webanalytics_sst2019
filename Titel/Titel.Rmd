@@ -60,17 +60,39 @@ Wie werden die offenen Daten des Kantons Zürich genutzt?
 --
 
 
-Wie häufig werden sie genutzt / wie hoch ist das Interesse?
---
+Wie häufig werden sie genutzt / wie hoch ist das Interesse? 
 
+--
 [Daten](https://opendata.swiss/de/dataset/web-analytics-der-open-government-data-des-kantons-zuerich)
 ---
+# Woher kommen die Daten?
+
+### DCAT Power API
+
+Datensatzbeschreibungen etc.
+
+https://handbook.opendata.swiss/support/api.html
 
 
+### opendata.swiss Matomo Webanalytics API
 
+--> opendata.swiss
 
+matomo api unseres Webservers / CMS
 
+---
+class: center, middle
 
+<img src="https://camo.githubusercontent.com/40e5c42f08116a0e8f0395c97e1e5553d526b19a/68747470733a2f2f6d65646961322e67697068792e636f6d2f6d656469612f526766476d6e567674385066792f67697068792e676966" width="">
+
+---
+class: center, middle, inverse
+
+https://openzh.shinyapps.io/openzh_dashboard
+
+Verweis : offen auf github verfügbar, auf andere Organisationseinheiten ausweitbar.
+
+Sowohl Aufbereitung / ogd Dashboard!
 
 
 ---
@@ -105,6 +127,7 @@ Wie häufig werden sie genutzt / wie hoch ist das Interesse?
 
 1. Text
 ]
+
 
 ---
 
