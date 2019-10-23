@@ -39,15 +39,41 @@ Insgesamt publiziert der Kanton Zürich 605 Datensätze von fünf verschiednenen
 
 https://opendata.swiss/de/organization/kanton-zuerich
 
-- sounsoviele Statistik
-- soundsoviele Geo
-- etc
+- 337 Statistik
+- 263 Geoinformation
+- 3 Staatsarchiv
+- 1 Gemeindeamt
+- 2 Fachstelle Open Government Data
+
+---
+class: center, middle
+
+# Nutzung der offenen Daten
+
+Wie werden die offenen Daten des Kantons Zürich genutzt?
+
+--
+
+
+<img src="https://media.giphy.com/media/y65VoOlimZaus/giphy.gif" width="">
+
+--
+
+
+Wie häufig werden sie genutzt / wie hoch ist das Interesse?
+--
+
+[Daten](https://opendata.swiss/de/dataset/web-analytics-der-open-government-data-des-kantons-zuerich)
+---
+
+
+
+
+
 
 
 
 ---
-
-# Layout 3
 ***
 
 ### Untertitel
