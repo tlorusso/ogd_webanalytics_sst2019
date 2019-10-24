@@ -25,10 +25,10 @@ class: middle, inverse
 ### Inhalt
 
 1. OGD Angebot des Kantons Zürich
-1. Wofür Daten zur Nutzung von offenen Daten publizieren?
-2. Woher kommen die Daten?
-3. Das Webanalytics-Dashboard
-4. Ausblick & geplante Änderungen
+2. Wofür Daten zur Nutzung von offenen Daten publizieren?
+3. Woher kommen die Daten?
+4. Das Webanalytics-Dashboard
+5. Ausblick
 
 
 ---
@@ -46,11 +46,9 @@ https://opendata.swiss/de/organization/kanton-zuerich
 - 2 Fachstelle Open Government Data
 
 ---
-class: center, middle
+class: center, middle, inverse
 
-# Nutzung der offenen Daten
-
-Wie werden die offenen Daten des Kantons Zürich genutzt?
+### Wie werden die offenen Daten des Kantons Zürich genutzt?
 
 --
 
@@ -60,25 +58,37 @@ Wie werden die offenen Daten des Kantons Zürich genutzt?
 --
 
 
-Wie häufig werden sie genutzt / wie hoch ist das Interesse? 
+### Wie häufig werden sie genutzt / wie hoch ist das Interesse?
 
 --
+
 [Daten](https://opendata.swiss/de/dataset/web-analytics-der-open-government-data-des-kantons-zuerich)
+
+
 ---
-# Woher kommen die Daten?
+# Datenquellen
 
-### DCAT Power API
+### Web-Analytics
 
-Datensatzbeschreibungen etc.
+Bezug via API der Webanalyse-Plattform (https://matomo.org) des Metadaten-Katalogs opendata.swiss. 
+
+⇒ nur für Organisationen zugänglich, die Metadaten auf bzw. via opendata.swiss publizieren.
+
+--
+
+### Metadaten
+
+Anreicherung durch zusätzliche Angaben via CKAN Action API des Metadaten-Katalogs opendata.swiss. 
+
+⇒ offen zugängliche Schnittstelle.
 
 https://handbook.opendata.swiss/support/api.html
 
+--
+#### Code für die Aufbereitung
 
-### opendata.swiss Matomo Webanalytics API
+https://github.com/openZH/web-analytics-der-open-government-data-des-kantons-zuerich
 
---> opendata.swiss
-
-matomo api unseres Webservers / CMS
 
 ---
 class: center, middle
@@ -87,6 +97,10 @@ class: center, middle
 
 ---
 class: center, middle, inverse
+
+
+
+
 
 https://openzh.shinyapps.io/openzh_dashboard
 
