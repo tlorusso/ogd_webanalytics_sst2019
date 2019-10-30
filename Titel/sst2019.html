@@ -27,11 +27,10 @@ class: middle, inverse
 ### Inhalt
 
 1. OGD Angebot des Kantons Zürich
-1. Wofür Daten zur Nutzung von offenen Daten publizieren?
-2. Woher kommen die Daten?
-3. Das Webanalytics-Dashboard
-4. Ausblick &amp; geplante Änderungen
-
+2. Wofür Daten zur Nutzung von offenen Daten publizieren?
+3. Woher kommen die Daten?
+4. Das Webanalytics-Dashboard
+5. Ausblick
 
 ---
 
@@ -41,15 +40,100 @@ Insgesamt publiziert der Kanton Zürich 605 Datensätze von fünf verschiednenen
 
 https://opendata.swiss/de/organization/kanton-zuerich
 
-- sounsoviele Statistik
-- soundsoviele Geo
-- etc
+- 337 Statistik
+- 263 Geoinformation
+- 3 Staatsarchiv
+- 1 Gemeindeamt
+- 2 Fachstelle Open Government Data
 
+---
+class: center, middle, inverse
+
+### Wie werden die offenen Daten des Kantons Zürich genutzt?
+
+--
+
+
+&lt;img src="https://media.giphy.com/media/y65VoOlimZaus/giphy.gif" width=""&gt;
+
+--
+
+
+### Wie häufig werden sie genutzt / wie hoch ist das Interesse?
+
+--
+
+[Daten](https://opendata.swiss/de/dataset/web-analytics-der-open-government-data-des-kantons-zuerich)
+
+???
+Wie genau die OGD des Kantons Zürich genutzt werden und was alles damit gemacht wird - wissen wir nicht. In einigen Fällen erfahren wir davon, in vielen jedoch nicht.
+
+Was wissen wir? Wie oft sie auf Opendata.swiss aufgerufen wurden - d.h. wieviel Aufmerksamkeit die Daten erhalten haben. Nimmt das Interesse an den Daten zu? Welche Datensätze interessieren am meisten?
+
+---
+# Datenquellen
+
+### Web-Analytics
+
+Bezug via API der Webanalyse-Plattform (https://matomo.org) des Metadaten-Katalogs opendata.swiss. 
+
+⇒ nur für Organisationen zugänglich, die Metadaten auf bzw. via opendata.swiss publizieren.
+
+--
+
+### Metadaten
+
+Anreicherung durch zusätzliche Angaben via CKAN Action API des Metadaten-Katalogs opendata.swiss. 
+
+⇒ offen zugängliche Schnittstelle.
+
+https://handbook.opendata.swiss/support/api.html
+
+--
+#### R-Code für die Aufbereitung
+
+https://github.com/openZH/web-analytics-der-open-government-data-des-kantons-zuerich
 
 
 ---
+class: center, middle
 
-# Layout 3
+&lt;img src="https://camo.githubusercontent.com/40e5c42f08116a0e8f0395c97e1e5553d526b19a/68747470733a2f2f6d65646961322e67697068792e636f6d2f6d656469612f526766476d6e567674385066792f67697068792e676966" width=""&gt;
+
+---
+class: center, middle, inverse
+
+# OpenZH Dashboard
+
+Die Webanalytics sind auch via Web-Applikation frei zugänglich. Das __OpenZH-Dashboard__ wird durch die offenen Daten auf opendata.swiss gespiesen:
+
+https://openzh.shinyapps.io/openzh_dashboard
+
+__Source Code__
+
+&lt;a href="https://github.com/openZH/openzh_dashboard"&gt;&lt;i class="fa fa-github fa-fw"&gt;&lt;/i&gt;&lt;/a&gt;
+
+&lt;div&gt;
+&lt;img src="https://rstudio.com/wp-content/uploads/2014/04/shiny.png" alt="", width = "10%"&gt;
+&lt;img src="https://echarts4r.john-coene.com/reference/figures/logo.png" alt="", width = "10%"&gt;
+&lt;/div&gt;
+
+???
+
+
+Verweis : offen auf github verfügbar, auf andere Organisationseinheiten ausweitbar.
+
+---
+# Ausblick
+
+- Integration von Download-Statistiken
+- Ausbau des OpenZH-Dashboards
+- Nutzung der Daten für Optmierung unseres OGD-Angebots
+
+--
+- Übernahme durch weitere Organisationen?
+
+---
 ***
 
 ### Untertitel
@@ -81,6 +165,7 @@ https://opendata.swiss/de/organization/kanton-zuerich
 
 1. Text
 ]
+
 
 ---
 

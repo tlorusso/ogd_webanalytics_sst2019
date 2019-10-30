@@ -30,7 +30,6 @@ class: middle, inverse
 4. Das Webanalytics-Dashboard
 5. Ausblick
 
-
 ---
 
 # OGD-Angebot des Kantons Zürich
@@ -64,6 +63,10 @@ class: center, middle, inverse
 
 [Daten](https://opendata.swiss/de/dataset/web-analytics-der-open-government-data-des-kantons-zuerich)
 
+???
+Wie genau die OGD des Kantons Zürich genutzt werden und was alles damit gemacht wird - wissen wir nicht. In einigen Fällen erfahren wir davon, in vielen jedoch nicht.
+
+Was wissen wir? Wie oft sie auf Opendata.swiss aufgerufen wurden - d.h. wieviel Aufmerksamkeit die Daten erhalten haben. Nimmt das Interesse an den Daten zu? Welche Datensätze interessieren am meisten?
 
 ---
 # Datenquellen
@@ -85,7 +88,7 @@ Anreicherung durch zusätzliche Angaben via CKAN Action API des Metadaten-Katalo
 https://handbook.opendata.swiss/support/api.html
 
 --
-#### Code für die Aufbereitung
+#### R-Code für die Aufbereitung
 
 https://github.com/openZH/web-analytics-der-open-government-data-des-kantons-zuerich
 
@@ -98,16 +101,35 @@ class: center, middle
 ---
 class: center, middle, inverse
 
+# OpenZH Dashboard
 
-
-
+Die Webanalytics sind auch via Web-Applikation frei zugänglich. Das __OpenZH-Dashboard__ wird durch die offenen Daten auf opendata.swiss gespiesen:
 
 https://openzh.shinyapps.io/openzh_dashboard
 
+__Source Code__
+
+<a href="https://github.com/openZH/openzh_dashboard"><i class="fa fa-github fa-fw"></i></a>
+
+<div>
+<img src="https://rstudio.com/wp-content/uploads/2014/04/shiny.png" alt="", width = "10%">
+<img src="https://echarts4r.john-coene.com/reference/figures/logo.png" alt="", width = "10%">
+</div>
+
+???
+
+
 Verweis : offen auf github verfügbar, auf andere Organisationseinheiten ausweitbar.
 
-Sowohl Aufbereitung / ogd Dashboard!
+---
+# Ausblick
 
+- Integration von Download-Statistiken
+- Ausbau des OpenZH-Dashboards
+- Nutzung der Daten für Optmierung unseres OGD-Angebots
+
+--
+- Übernahme durch weitere Organisationen?
 
 ---
 ***

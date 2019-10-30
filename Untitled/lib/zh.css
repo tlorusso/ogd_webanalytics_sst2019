@@ -44,16 +44,6 @@ a, a > code {
   font-size: 15pt;
 }
 
-
-hr {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  height: 8px;
-  border: 0;
-  box-shadow: 0 8px 6px -8px black inset;
-}
-
 .remark-slide-content { 
   padding: 50px;
   line-height: 1.25em;
@@ -69,6 +59,7 @@ hr {
     margin-top: 0px;
 
 }
+
 
 .remark-slide-number {
     font-size: 10pt;
@@ -98,26 +89,6 @@ hr {
   line-height: 1.0em;
 }
 
-.inverse code {
-  background: #FF7F50;
-  border-radius: 3px;
-}
-
-.inverse hr {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  height: 5px;
-  border: 0;
-  box-shadow: 0 8px 10px -4px white inset;
-}
-
-.remark-inline-code{
-  background: #F5F5F5; /* lighter */
-  /* background: #e7e8e2; /* darker */
-  border-radius: 3px;
-  padding: 4px;
-}
 
 .title-slide {
    background-image: url(lionwhite.jpg);
@@ -132,10 +103,11 @@ hr {
     
 }
 
+
 .title-slide.remark-slide-content:before {
     content: 'Kanton Zürich Statistisches Amt';
     font-size: 16px;
-    font-family: 'Arial Black','Helvetica';
+    font-family:'Arial Black', 'Yanone Kaffeesatz';
     width: 200px;
     margin-top:23px;
     display: inline-block;
@@ -149,19 +121,19 @@ hr {
 
 .title-slide h1 {
   font-family: 'Arial Black','Helvetica';
-  color: white;  
+  color: #fff;  
   text-shadow: none;
-  line-height: 1.5em;
+  line-height: 2em;
   text-align: left;
   margin-left: 50px;
-  margin-top: 100px; 
-  padding-top: 2.5em;
+ /* margin-top: 100px; */
+ /* padding-top: 2.5em;*/
 }
 
 
 /*
 .title-slide h1:before {
-    content: 'Kanton Zürich Statistisches Amt \a ';
+    content: 'Kanton Zürichaaa Statistisches Amt \a ';
     font-size: 14px;
     width: 200px;
    white-space: pre-wrap;
@@ -172,8 +144,8 @@ hr {
 */
 
 .title-slide h2 {
-  font-family:'Arial Black','Helvetica';
-  color: white; 
+  font-family: 'Arial Black','Helvetica';
+  color: #fff; 
   text-shadow: none;
   line-height: 1em;
   text-align: left;
@@ -181,50 +153,18 @@ hr {
 }
 
 .title-slide h3:nth-of-type(1), .title-slide h3:nth-of-type(2) {
-  color: white; 
+  color: #fff; 
   text-shadow: none;
   line-height: 1.1em;
   text-align: left;
   font-family: 'Arial Black','Helvetica';
   font-size: 24px;
-  margin-left: 50px;
+   margin-left: 50px;
 	
 }
 
 .title-slide .remark-slide-number {
   display: none;
-}
-
-
-/* title slide : formattierung der github / twitter / email angaben */
-.contact{
-   text-align: left;
-   margin-left: 50px;
-} 
-
-.contact a{
-  color: white;
-  text-decoration: none; 
-  border-bottom: 5px solid #009ee0; 
-  color: white;
-}
-
-.contact a:hover {
-  color: orange;
-}
-
-/*links auf blauen folien mit Klasse .inverse*/
-
-
-.inverse a{
-  color: white;
-  text-decoration: none; 
-  border-bottom: 5px solid #009ee0; 
-  color: white;
-}
-
-.inverse a:hover {
-  color: orange;
 }
 
 /* Two-column layout */
