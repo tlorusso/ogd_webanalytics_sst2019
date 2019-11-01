@@ -55,10 +55,10 @@ class: center, middle, inverse
 ---
 class: center, middle, inverse
 
-### Nicht einfach, die Frage zu beantworten...
+### Keine einfache Frage!
 --
 
-### wir kennen einzelne Beispiele:
+### ... wir kennen einzelne Beispiele:
 
 https://opendata.swiss/de/app/
 
@@ -71,16 +71,16 @@ class: center, middle
 
 
 <img src="https://media.giphy.com/media/4GZwzdvW0m0Cbxrdav/giphy.gif" width="">
- 
---
 
 Die Spuren, welche die Nutzer hinterlassen!
+
+--
 
 Wie häufig werden sie genutzt / welche Datensätze interessieren am meisten?
 
 --
 
-### Nutzungsdaten
+⇒ __Webanalytics von opendata.swiss__
 
 [opendata.swiss](https://opendata.swiss/de/dataset/web-analytics-der-open-government-data-des-kantons-zuerich)
 
