@@ -43,42 +43,37 @@ https://opendata.swiss/de/organization/kanton-zuerich
 - 2 Fachstelle Open Government Data
 
 ---
+class: center, middle, inverse
 
+## Welche Bedürfnisse haben unsere Nutzer*innen?
 
-# BEISPIELE von anderen? Forschung? 
+???
+Wir wollen wissen welche Bedürfnisse unsere Nutzer*innen haben. Nicht einmalig, sondern laufend. 
 
 ---
 class: center, middle, inverse
 
-## Wie und wozu werden die offenen Daten genutzt?
+
+<img src="https://media.giphy.com/media/ZH5o2lacOA8Te/giphy.gif" width="50%">
+
+???
+
+Keine einfache Frage!
 
 ---
 class: center, middle, inverse
 
-### Keine einfache Frage!
---
 
-### ... wir kennen einzelne Beispiele:
+### __Explorative Spurensuche__ mit Hilfe von Webanalytics!
 
-https://opendata.swiss/de/app/
-
+Das Nutzerverhalten auf __opendata.swiss__ kann uns dabei helfen, die Bedürfnisse besser zu verstehen.
 
 --
-### was gibt es sonst noch?
- 
----
-class: center, middle
-
 
 <img src="https://media.giphy.com/media/4GZwzdvW0m0Cbxrdav/giphy.gif" width="">
 
-Die Spuren, welche die Nutzer hinterlassen!
-
 --
 
-Wie häufig werden sie genutzt / welche Datensätze interessieren am meisten?
-
---
 
 ⇒ __Webanalytics von opendata.swiss__
 
@@ -88,6 +83,8 @@ Wie häufig werden sie genutzt / welche Datensätze interessieren am meisten?
 Wie genau die OGD des Kantons Zürich genutzt werden und was alles damit gemacht wird - wissen wir nicht. In einigen Fällen erfahren wir davon, in vielen jedoch nicht.
 
 Was wissen wir? Wie oft sie auf Opendata.swiss aufgerufen wurden - d.h. wieviel Aufmerksamkeit die Daten erhalten haben. Nimmt das Interesse an den Daten zu? Welche Datensätze interessieren am meisten? Welche Themen? 
+
+Wie häufig werden sie genutzt / welche Datensätze interessieren am meisten?
 
 ---
 # Datenquellen
