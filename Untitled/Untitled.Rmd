@@ -1,8 +1,8 @@
 ---
-title: "Nutzungsdaten offen publizieren"
-subtitle: ""
-author: 'Thomas Lo Russo <br> Datashop'
-date: '12.11.2019 <br><br>
+title: "Titel"
+subtitle: "Untertitel"
+author: 'Thomas Muster <br> Institut '
+date: '01.01.2022 <br><br>
 <div class="contact">
 <a href="https://twitter.com/statistik_zh" style="text-decoration: none; border-bottom:"><i class="fa fa-twitter fa-fw"></i>@statistik_zh</a><br> 
 <a href="https://github.com/statistikZH"><i class="fa fa-github fa-fw"></i>Statistisches Amt Kanton Zürich</a><br> 
@@ -12,6 +12,7 @@ output:
   xaringan::moon_reader:
     css: 
     - lib/zh_cd_city.css
+    - "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"
     - "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     nature:
       highlightStyle: github
@@ -19,163 +20,35 @@ output:
       countIncrementalSlides: false
       ratio: "16:9"
 ---
-class: middle, inverse
 
-### Inhalt
+# Layout 1
 
-1. OGD Angebot des Kantons Zürich
-2. Wieso publizieren wir Nutzungsdaten?
-3. Datenquellen
-4. Das Webanalytics-Dashboard
-5. Ausblick
+### Untertitel
+
+- Punkt
+  - Unterpunkt 1
+  - Unterpunkt 2
+      - Unterpunkt 3
+      - Unterpunkt 3
+
+---
+
+# Layout 2
+***
+
+### Untertitel
+
+Die Eingabe von `***` fügt eine Linie ein, mit `---` beginnt man eine neue Präsentationsfolie und mit `</br>` erhählt man einen Zeilenumbruch. 
+
+- Punkt
+  - Unterpunkt 1
+  - Unterpunkt 2
+      - Unterpunkt 3
+      - Unterpunkt 3
 
 ---
 
-# OGD-Angebot des Kantons Zürich
-
-Insgesamt publiziert der Kanton Zürich 605 Datensätze von fünf verschiednenen Organisationseinheiten auf opendata.swiss, dem Schweizerischen Portal für offenen Behördendaten. 
-
-https://opendata.swiss/de/organization/kanton-zuerich
-
-- 337 Statistik
-- 263 Geoinformation
-- 3 Staatsarchiv
-- 1 Gemeindeamt
-- 2 Fachstelle Open Government Data
-
----
-class: center, middle, inverse
-
-> Wir wollen wissen welche Bedürfnisse unsere Nutzer*innen haben. Nicht einmalig, sondern laufend. 
-
-_Andreas Amsler,Leiter Fach- und Koordinationsstelle OGD._
-
-<a href="https://twitter.com/andreasamsler" style="text-decoration: none; border-bottom:"><i class="fa fa-twitter fa-fw"></i>@andreasamsler</a><br> 
-
-???
-Wir wollen wissen welche Bedürfnisse unsere Nutzer*innen haben. Nicht einmalig, sondern laufend. 
-
----
-class: center, middle, inverse
-
-
-<img src="https://media.giphy.com/media/ZH5o2lacOA8Te/giphy.gif" width="50%">
-
-[via giphy](https://media.giphy.com/media/ZH5o2lacOA8Te/giphy.gif)
-???
-
-Keine einfache Frage!
-
----
-class: center, middle, inverse
-
-### __Explorative Spurensuche__ mit Hilfe von Webanalytics!
-
-
-<img src="https://media.giphy.com/media/4GZwzdvW0m0Cbxrdav/giphy.gif" width="">
-
-[via giphy](https://media.giphy.com/media/4GZwzdvW0m0Cbxrdav/giphy.gif)
-
-???
-
-Kann uns das Nutzerverhalten __opendata.swiss__ uns dabei helfen, die Bedürfnisse besser zu verstehen?
-
----
-# Nutzungsdaten als OGD
-
-Die Analyse der Nutzungsdaten soll es uns ermöglichen, besser fundierte Entscheide betreffend der Weiterentwicklung unseres Datenangebots zu fällen. Um die Daten einfach analysieren zu können müssen wir diese aufbereiten. Den dementsprechenden Datensatz stellen wir 1:1 als opendata zur Verfügung.
-
-[Datensatz auf opendata.swiss](https://opendata.swiss/de/dataset/web-analytics-der-open-government-data-des-kantons-zuerich)
-
-???
-Wie genau die OGD des Kantons Zürich genutzt werden und was alles damit gemacht wird - wissen wir nicht. In einigen Fällen erfahren wir davon, in vielen jedoch nicht.
-
-3. Ihr Verhalten auf unserem Webauftritt kann uns helfen, Bedürfnisse zu identifizieren und besser zu verstehen.
-4. Unsere Kompetenz in der Analyse und Interpretation von Daten hilft uns, tragfähige Aussagen über die Bedürfnisse unser Nutzer zu machen.
-5. Aussagen, auf deren Grundlage wir Entscheide fällen – Entscheide über die Struktur, die Funktionalitäten und die Inhalte unserer digitalen Dienste.
-
-6. Was wir an Daten zum Verhalten unserer Nutzenden sammeln, behandeln wir wie Mrs. Marple und Mr. Holmes als Indizien, die wir weiter zu erforschen versuchen.
-7. Wir gehen also explorativ vor; stellen Thesen auf und versuchen diese zu falsifizieren.
-8. Ziel ist, dass wir Entscheide nicht auf Grundlage von un- oder schwach belegten Annahmen treffen; und dass wir unsere Informations- und Dienstleistungen gemäss den sich wandelnden Bedürfnissen erbringen können.
-
-Was wissen wir? Wie oft sie auf Opendata.swiss aufgerufen wurden - d.h. wieviel Aufmerksamkeit die Daten erhalten haben. Nimmt das Interesse an den Daten zu? Welche Datensätze interessieren am meisten? Welche Themen? 
-
-Wie häufig werden sie genutzt / welche Datensätze interessieren am meisten?
-
----
-# Datenquellen
-
-### Web-Analytics
-
-Bezug via API der Webanalyse-Plattform (https://matomo.org) des Metadaten-Katalogs opendata.swiss. 
-
-⇒ nur für Organisationen zugänglich, die Metadaten auf bzw. via opendata.swiss publizieren.
-
---
-
-### Metadaten
-
-Anreicherung durch zusätzliche Angaben via CKAN Action API des Metadaten-Katalogs opendata.swiss. 
-
-⇒ offen zugängliche Schnittstelle.
-
-https://handbook.opendata.swiss/support/api.html
-
---
-#### R-Code für die Aufbereitung
-
-https://github.com/openZH/web-analytics-der-open-government-data-des-kantons-zuerich
-
-
----
-class: center, middle
-
-<img src="https://camo.githubusercontent.com/40e5c42f08116a0e8f0395c97e1e5553d526b19a/68747470733a2f2f6d65646961322e67697068792e636f6d2f6d656469612f526766476d6e567674385066792f67697068792e676966" width="">
-
----
-class: center, middle, inverse
-
-# OpenZH Dashboard
-
-Die Webanalytics sind auch via Web-Applikation frei zugänglich. Das __OpenZH-Dashboard__ wird durch die offenen Daten auf opendata.swiss gespiesen:
-
-https://openzh.shinyapps.io/openzh_dashboard
-
-__Source Code__
-
-<a href="https://github.com/openZH/openzh_dashboard"><i class="fa fa-github fa-fw"></i></a>
-
-<div>
-<img src="https://rstudio.com/wp-content/uploads/2014/04/shiny.png" alt="", width = "10%">
-<img src="https://echarts4r.john-coene.com/reference/figures/logo.png" alt="", width = "10%">
-</div>
-
-???
-
-
-Verweis : offen auf github verfügbar, auf andere Organisationseinheiten ausweitbar.
-
----
-class: center, middle, inverse
-background-image: url(lib/Hintergrundbild2.jpg)
-
-# Ausblick
-
-1. Integration von Download-Statistiken
-2. Ausbau des OpenZH-Dashboards (Themenansicht u.a.)
-3. Nutzung der Daten für Optmierung unseres OGD-Angebots
-4. Übernahme durch weitere Organisationen?
-
----
-class: center, middle, inverse
-background-image: url(lib/Hintergrundbild2.jpg)
-
-# Danke!
-
-<img src="https://media.giphy.com/media/QAsBwSjx9zVKoGp9nr/giphy.gif" width="">
-
-
----
+# Layout 3
 ***
 
 ### Untertitel
@@ -207,7 +80,6 @@ background-image: url(lib/Hintergrundbild2.jpg)
 
 1. Text
 ]
-
 
 ---
 
