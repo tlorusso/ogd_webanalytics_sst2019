@@ -24,16 +24,19 @@ class: middle, inverse
 ### Inhalt
 
 1. OGD Angebot des Kantons Zürich
-2. Wieso publizieren wir Nutzungsdaten?
+2. Wieso analysieren und publizieren wir Nutzungsdaten?
 3. Datenquellen
 4. Das Webanalytics-Dashboard
 5. Ausblick
+
+???
+Ich darf Ihnen etwas zur Publikation von Nutzungsdaten unserer OGD erzählen. Wir haben nun einiges zur Strategie und punkto Publikation gehört. Aber wenn wir Strategie-Fragen geklärt haben und Daten offen publiziert haben - vielleicht auch auf einem eigenen Portal - ist die Arbeit nicht getan. Es gilt sicherzustellen, dass sich das Angebot den sich wandelnden Bedürfnissen anpasst.
 
 ---
 
 # OGD-Angebot des Kantons Zürich
 
-Insgesamt publiziert der Kanton Zürich 605 Datensätze von fünf verschiednenen Organisationseinheiten auf opendata.swiss, dem Schweizerischen Portal für offenen Behördendaten. 
+Insgesamt publiziert der Kanton Zürich 605 Datensätze von fünf verschiedenen Organisationseinheiten auf opendata.swiss, dem Schweizerischen Portal für offenen Behördendaten. 
 
 https://opendata.swiss/de/organization/kanton-zuerich
 
