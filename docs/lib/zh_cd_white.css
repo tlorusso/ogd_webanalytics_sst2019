@@ -150,7 +150,8 @@ hr {
 .title-slide.remark-slide-content:before {
     content: 'Kanton Zürich Statistisches Amt';
     font-size: 16px;
-    font-family: 'Arial Black','Helvetica';
+    font-family:"Arial Black", Gadget, Arial, sans-serif;
+	font-weight: 900;
     width: 190px;
     margin-top:23px;
     margin-left: 30px;
