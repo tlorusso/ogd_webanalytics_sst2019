@@ -136,7 +136,7 @@ hr {
 }
 
 .title-slide {
-   background-image: url(Hintergrundbild.jpg);
+   background-image: url(lionwhite.jpg);
   /*background-position: top right;*/
   background-size: 100%;
   /*background-color: white;
@@ -161,12 +161,12 @@ hr {
     left: 110px;
     text-align: left;
     line-height: 100%;
-    color: #919191;    
+    color: white;    
 }
 
 .title-slide h1 {
   font-family: 'Arial Black','Helvetica';
-  color: #009ee0;  
+  color: white;  
   text-shadow: none;
   line-height: 1em;
   text-align: left;
@@ -189,7 +189,7 @@ hr {
 
 .title-slide h2 {
   font-family:'Arial Black','Helvetica';
-  color: #919191; 
+  color: "#ffffff"; 
   text-shadow: none;
   line-height: 0em;
   text-align: left;
@@ -197,7 +197,7 @@ hr {
 }
 
 .title-slide h3:nth-of-type(1), .title-slide h3:nth-of-type(2) {
-  color: black; 
+  color: white; 
   text-shadow: none;
   line-height: 1.1em;
   text-align: left;
