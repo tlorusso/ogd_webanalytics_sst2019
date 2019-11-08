@@ -11,7 +11,7 @@ date: '12.11.2019 <br><br>
 output:
   xaringan::moon_reader:
     css: 
-    - lib/zh_cd_city.css
+    - lib/zh_cd_white.css
     - "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     nature:
       highlightStyle: github
@@ -65,7 +65,6 @@ class: center, middle, inverse
 [via giphy](https://media.giphy.com/media/ZH5o2lacOA8Te/giphy.gif)
 ???
 
-Keine einfache Frage!
 
 ---
 class: center, middle, inverse
@@ -135,12 +134,6 @@ https://handbook.opendata.swiss/support/api.html
 
 https://github.com/openZH/web-analytics-der-open-government-data-des-kantons-zuerich
 
-
----
-class: center, middle
-
-<img src="https://camo.githubusercontent.com/40e5c42f08116a0e8f0395c97e1e5553d526b19a/68747470733a2f2f6d65646961322e67697068792e636f6d2f6d656469612f526766476d6e567674385066792f67697068792e676966" width="">
-
 ---
 class: center, middle, inverse
 
@@ -183,7 +176,4 @@ background-image: url(lib/Hintergrundbild2.jpg)
 
 <img src="https://media.giphy.com/media/QAsBwSjx9zVKoGp9nr/giphy.gif" width="">
 
-
----
-background-image: url(https://media.giphy.com/media/GZd8nPH3TcNSU/giphy.gif)
 
