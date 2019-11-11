@@ -20,6 +20,11 @@ output:
       ratio: "16:9"
 ---
 class: middle, inverse
+# Slides
+https://tinyurl.com/openzh
+
+---
+class: middle, inverse
 
 # Inhalt
 
@@ -144,7 +149,7 @@ https://handbook.opendata.swiss/support/api.html
 Den Webstatistiken fehlen die Metadaten zum jeweiligen Datensatz (z.B. Thema).
 
 ---
-class: center, middle, inverse
+class: middle, inverse, center
 
 
 # R-Code für die Datenaufbereitung
@@ -152,7 +157,7 @@ class: center, middle, inverse
 <a href="https://github.com/openZH/web-analytics-der-open-government-data-des-kantons-zuerich"><i class="fa fa-github fa-fw"></i>openzh_webanalytics</a>
 
 ---
-class: center, middle, inverse
+class:  middle, inverse
 
 # OpenZH Dashboard
 
