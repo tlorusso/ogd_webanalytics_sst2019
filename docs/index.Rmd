@@ -96,7 +96,7 @@ Um diese einfach analysieren zu können müssen wir diese aufbereiten. Den demen
 [Datensatz auf opendata.swiss](https://opendata.swiss/de/dataset/web-analytics-der-open-government-data-des-kantons-zuerich)
 
 ???
-Das Verhalten auf unserem Webauftritt kann uns helfen, Bedürfnisse zu identifizieren und besser zu verstehen. Ziel ist, dass wir Entscheide nicht auf Grundlage von un- oder schwach belegten Annahmen treffen. Sondern Anhaltspunkte zu sammeln, um unsere Informations- und Dienstleistungen gemäss den sich wandelnden Bedürfnissen erbringen zu können.
+Das Verhalten auf unserem Webauftritt kann uns helfen, Bedürfnisse zu identifizieren und besser zu verstehen. Ziel ist, dass wir Entscheide nicht auf Grundlage von un- oder schwach belegten Annahmen treffen. Wir wollen Anhaltspunkte sammeln, die uns besser fundierte Entscheidungen ermöglichen.
 
 ---
 class: inverse,center,middle
@@ -126,6 +126,10 @@ Bezug via API der Webanalyse-Plattform (https://matomo.org) des Metadaten-Katalo
 
 ⇒ nur für Organisationen zugänglich, die Metadaten auf bzw. via opendata.swiss publizieren.
 
+???
+
+Via R steuern wir zwei APIs an um die Daten zusammenzustellen. Für die Besucher-Statistiken ist dies die Matomo-Instanz von open.data.swiss. Matomo, ehemals Piwik, ist eine weitverbreitete Open-Source-Webanalytik-Plattform. Die Plattform bietet auch eine API, die standardisiert ist.
+
 
 ---
 # Datenquellen
@@ -139,8 +143,7 @@ Anreicherung durch zusätzliche Angaben via CKAN Action API des Metadaten-Katalo
 https://handbook.opendata.swiss/support/api.html
 
 ???
-
-Via R steuern wir zwei APIs an um die Daten zusammenzustellen. 
+Den Webstatistiken fehlen die Metadaten zum jeweiligen Datensatz (z.B. Thema).
 
 ---
 class: center, middle, inverse
@@ -149,8 +152,6 @@ class: center, middle, inverse
 # R-Code für die Datenaufbereitung
 
 <a href="https://github.com/openZH/web-analytics-der-open-government-data-des-kantons-zuerich"><i class="fa fa-github fa-fw"></i>openzh_webanalytics</a>
-
-
 
 ---
 class: center, middle, inverse
@@ -171,7 +172,7 @@ __Source Code__: <a href="https://github.com/openZH/openzh_dashboard"><i class="
 </div>
 
 ???
-Wir bieten die Daten nicht nur in maschinenlesbarer Form auf opendata.swiss an. Wir haben ein schlankes Dashboard gebaut, welches durch die Daten gespiesen wird. csv eher für Experten / Dashboard für alle.
+Wir bieten die Daten nicht nur in maschinenlesbarer Form auf opendata.swiss an. Wir haben ein schlankes Dashboard gebaut, welches durch die Daten gespiesen wird. Daten in Form von csv eher für Experten / Dashboard für alle.
 
 Auch hier ist der Code offen auf github verfügbar, auf andere Organisationseinheiten ausweitbar.
 
