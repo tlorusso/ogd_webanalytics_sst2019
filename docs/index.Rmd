@@ -21,7 +21,9 @@ output:
 ---
 class: middle, inverse
 
-### Inhalt
+# Inhalt
+
+.large[
 
 1. OGD Angebot des Kantons Zürich
 2. Wieso analysieren und publizieren wir Nutzungsdaten?
@@ -29,14 +31,18 @@ class: middle, inverse
 4. Das Webanalytics-Dashboard
 5. Ausblick
 
+]
+
 ???
-Ich darf Ihnen etwas zur Publikation von Nutzungsdaten unserer OGD erzählen. Wir haben nun einiges zur Strategie und punkto Publikation gehört. Aber wenn wir Strategie-Fragen geklärt haben und Daten offen publiziert haben - vielleicht auch auf einem eigenen Portal - ist die Arbeit nicht getan. Es gilt sicherzustellen, dass sich das Angebot den sich wandelnden Bedürfnissen anpasst.
+Ich darf Ihnen etwas zur Publikation von Nutzungsdaten unserer OGD erzählen. Wir haben nun einiges zu OGD Strategie und punkto Publikation gehört. Aber wenn Strategie-Fragen geklärt  sind und Daten offen publiziert werden - vielleicht auch auf einem eigenen Portal - ist die Arbeit nicht getan. Es gilt, das Angebot laufend zu verbessern und sich den wandelnden Bedürfnissen der Nutzenden anzupassen. Daher haben wir damit begonnen, Nutzungsdaten auszuwerten und auch zu veröffentlichen um auch hinsichtlich Nachfrage Transparenz zu schaffen. Für die Aufbereitung der Daten nutzen wir die offene Software R. Organisationen, die Daten via opendata.swiss publizieren steht es somit frei, unseren Code zu übernehmen und dasselbe zu tun wie wir.
 
 ---
 
 # OGD-Angebot des Kantons Zürich
 
-Insgesamt publiziert der Kanton Zürich 605 Datensätze von fünf verschiedenen Organisationseinheiten auf opendata.swiss, dem Schweizerischen Portal für offenen Behördendaten. 
+.large[
+
+Insgesamt publiziert der Kanton Zürich 605 Datensätze von fünf verschiedenen Organisationseinheiten auf opendata.swiss, dem Schweizerischen Portal für offene Behördendaten. 
 
 https://opendata.swiss/de/organization/kanton-zuerich
 
@@ -46,15 +52,17 @@ https://opendata.swiss/de/organization/kanton-zuerich
 - 1 Gemeindeamt
 - 2 Fachstelle Open Government Data
 
+]
+
 ---
-class: center, middle, inverse
+class: center, middle, inverse, large
 
 > Wir wollen wissen welche Bedürfnisse unsere Nutzer*innen haben. Nicht einmalig, sondern laufend. 
 
 <a href="https://twitter.com/andreasamsler" style="text-decoration: none; border-bottom:"><i class="fa fa-twitter fa-fw"></i>@andreasamsler</a><br> 
 
 ???
-Wir wollen wissen welche Bedürfnisse unsere Nutzer*innen haben. Nicht einmalig, sondern laufend. 
+Nun, wie können wir unser Angebot verbessern? Diese Frage beschäftigt uns täglich. Um dies zu tun, ist es notwendig, die Bedürfnisse der Nutzer*innen zu kennen. Aber wie können wir etwas über die Nutzendenbedürfnisse erfahren?
 
 ---
 class: center, middle, inverse
@@ -63,8 +71,6 @@ class: center, middle, inverse
 <img src="https://media.giphy.com/media/ZH5o2lacOA8Te/giphy.gif" width="50%">
 
 [via giphy](https://media.giphy.com/media/ZH5o2lacOA8Te/giphy.gif)
-???
-
 
 ---
 class: center, middle, inverse
@@ -78,40 +84,40 @@ class: center, middle, inverse
 
 ???
 
-Wir erfahren nur punktuell direkt von den Nutzenden, was sie sich wünschen. Wir bemühen uns laufend um Feedback. Aber dies ist nur eine kleine Gruppe, die uns hier direkt Rückmeldungen gibt. Wie können wir - ohne 
+Wir erfahren nur punktuell direkt von den Nutzenden, was sie sich wünschen. Wir bemühen uns laufend um Feedback. Aber dies ist nur eine kleine Gruppe, die uns hier direkt Rückmeldungen gibt. Wie können wir - ohne enormen Aufwand - etwas über die Nutzenden unseres Angebots auf opendata.swiss erfahren, um deren Bedürfnisse besser zu verstehen?
 
-Kann uns das Nutzerverhalten __opendata.swiss__ uns dabei helfen, die Bedürfnisse besser zu verstehen?
+Spurensuche mit Hilfe von Webanalytics --> keine direkten Schlüsse bezüglich der Motive, aber allenfalls Indizien.
 
 ---
 # Nutzungsdaten als OGD
 
-Die Analyse der Nutzungsdaten soll es uns ermöglichen, besser fundierte Entscheide betreffend der Weiterentwicklung unseres Datenangebots zu fällen. Um die Daten einfach analysieren zu können müssen wir diese aufbereiten. Den dementsprechenden Datensatz stellen wir 1:1 als opendata zur Verfügung.
+.large[
+
+Die Analyse der Nutzungsdaten soll es uns ermöglichen, besser fundierte Entscheide betreffend der Weiterentwicklung unseres Datenangebots zu fällen. Um die Daten einfach analysieren zu können müssen wir diese aufbereiten. Den dementsprechenden Datensatz stellen wir seit Februar 2019 monatlich 1:1 als opendata zur Verfügung.
 
 [Datensatz auf opendata.swiss](https://opendata.swiss/de/dataset/web-analytics-der-open-government-data-des-kantons-zuerich)
 
 ## Was kann aus den Daten gelesen werden?
 
-- Wie entwickelt sich das Interesse über die Zeit?
 - Welche Datensätze / Themen interessieren am meisten?
+- Wie entwickelt sich das Interesse über die Zeit?
 
+]
+
+__R-Code für die Aufbereitung :__ <a href="https://github.com/openZH/web-analytics-der-open-government-data-des-kantons-zuerich"><i class="fa fa-github fa-fw"></i>openzh_webanalytics</a>
 
 ???
-Wie genau die OGD des Kantons Zürich genutzt werden und was alles damit gemacht wird - wissen wir nicht. In einigen Fällen erfahren wir davon, in vielen jedoch nicht.
 
-3. Ihr Verhalten auf unserem Webauftritt kann uns helfen, Bedürfnisse zu identifizieren und besser zu verstehen.
-4. Unsere Kompetenz in der Analyse und Interpretation von Daten hilft uns, tragfähige Aussagen über die Bedürfnisse unser Nutzer zu machen.
-5. Aussagen, auf deren Grundlage wir Entscheide fällen – Entscheide über die Struktur, die Funktionalitäten und die Inhalte unserer digitalen Dienste.
+Das Verhalten auf unserem Webauftritt kann uns helfen, Bedürfnisse zu identifizieren und besser zu verstehen. Ziel ist, dass wir Entscheide nicht auf Grundlage von un- oder schwach belegten Annahmen treffen; und dass wir unsere Informations- und Dienstleistungen gemäss den sich wandelnden Bedürfnissen erbringen können.
 
-6. Was wir an Daten zum Verhalten unserer Nutzenden sammeln, behandeln wir wie Mrs. Marple und Mr. Holmes als Indizien, die wir weiter zu erforschen versuchen.
-7. Wir gehen also explorativ vor; stellen Thesen auf und versuchen diese zu falsifizieren.
-8. Ziel ist, dass wir Entscheide nicht auf Grundlage von un- oder schwach belegten Annahmen treffen; und dass wir unsere Informations- und Dienstleistungen gemäss den sich wandelnden Bedürfnissen erbringen können.
+Was kann aus den Daten gelesen - in der jetzigen Form - geselen werden? Wie oft unsere Datensätze auf Opendata.swiss aufgerufen wurden - d.h. wieviel Aufmerksamkeit sie erhalten haben. Nimmt das Interesse an den Daten zu? Welche Datensätze interessieren am meisten? Welche Themen? 
 
-Was wissen wir? Wie oft sie auf Opendata.swiss aufgerufen wurden - d.h. wieviel Aufmerksamkeit die Daten erhalten haben. Nimmt das Interesse an den Daten zu? Welche Datensätze interessieren am meisten? Welche Themen? 
-
-Wie häufig werden sie genutzt / welche Datensätze interessieren am meisten?
+Wobei könnte uns dies künftig helfen? Wenn wir Änderungen an gewissen Datensätzen vornehmen, besser einzuschätzen, ob viele von diesen Änderungen betroffen sind oder nicht. Um Aufwand und Ertrag abzuschätzen und Ressourcen effizient einzusetzen. Wenn gewisse Datensätze stark genutzt werden und wir die Gelegenheit haben, mit etwas Mehraufwand einen detaillierteren Datensatz zur Verfügung zu stellen oder zeitnäher zu aktualisieren etc. , lohnt sich dies eher. 
 
 ---
 # Datenquellen
+
+.large[
 
 ### Web-Analytics
 
@@ -119,27 +125,34 @@ Bezug via API der Webanalyse-Plattform (https://matomo.org) des Metadaten-Katalo
 
 ⇒ nur für Organisationen zugänglich, die Metadaten auf bzw. via opendata.swiss publizieren.
 
+]
+
 --
 
 ### Metadaten
 
+.large[
+
 Anreicherung durch zusätzliche Angaben via CKAN Action API des Metadaten-Katalogs opendata.swiss. 
 
-⇒ offen zugängliche Schnittstelle.
+⇒ offen zugängliche Schnittstelle: https://handbook.opendata.swiss/support/api.html
+]
 
-https://handbook.opendata.swiss/support/api.html
+???
 
---
-#### R-Code für die Aufbereitung
+Via R steuern wir zwei APIs an um die Daten zusammenzustellen. 
 
-https://github.com/openZH/web-analytics-der-open-government-data-des-kantons-zuerich
 
 ---
 class: center, middle, inverse
 
 # OpenZH Dashboard
 
-Die Webanalytics sind auch via Web-Applikation frei zugänglich. Das __OpenZH-Dashboard__ wird durch die offenen Daten auf opendata.swiss gespiesen:
+.large[
+
+Die Webanalytics sind auch via Web-Applikation frei zugänglich. Das __OpenZH-Dashboard__ *BETA* wird durch unseren Datensatz auf opendata.swiss gespiesen:
+
+]
 
 https://openzh.shinyapps.io/openzh_dashboard
 
@@ -147,26 +160,31 @@ __Source Code__
 
 <a href="https://github.com/openZH/openzh_dashboard"><i class="fa fa-github fa-fw"></i>openzh_dashboard</a>
 
+
 <div>
 <img src="https://rstudio.com/wp-content/uploads/2014/04/shiny.png" alt="", width = "10%">
 <img src="https://echarts4r.john-coene.com/reference/figures/logo.png" alt="", width = "10%">
 </div>
 
 ???
+Wir bieten die Daten nicht nur in maschinenlesbarer Form auf opendata.swiss an. Wir haben ein schlankes Dashboard gebaut, welches durch die Daten gespiesen wird. csv eher für Experten / Dashboard für alle.
 
-
-Verweis : offen auf github verfügbar, auf andere Organisationseinheiten ausweitbar.
+Auch hier ist der Code offen auf github verfügbar, auf andere Organisationseinheiten ausweitbar.
 
 ---
-class: center, middle, inverse
-background-image: url(lib/Hintergrundbild2.jpg)
+class: middle, inverse
 
 # Ausblick
 
-1. Integration von Download-Statistiken
-2. Ausbau des OpenZH-Dashboards
-3. Nutzung der Daten für Optmierung unseres OGD-Angebots
-4. Übernahme durch weitere Organisationen?
+.large[
+
+1. Integration der Download-Statistiken der Ressourcen (bei uns gehostet)
+
+2. Überarbeitung des Dashboards anhand von Nutzerfeedback 
+
+3. Übernahme durch weitere Organisationen?
+
+]
 
 ---
 class: center, middle, inverse
