@@ -87,6 +87,8 @@ class: center, middle, inverse
 
 ???
 
+Hier kommen die Nutzungsdaten zum Zuge.
+
 Wir wissen nicht wer die Nutzenden genau sind, wir wissen nichts über ihre genauen Beweggründe. Doch hinterlassen sie Nutzungsspuren. Was wir tun können ist uns mit Hilfe von Webanalytics aus Spurensuche zu begeben und Indizien zu suchen.
 
 ---
