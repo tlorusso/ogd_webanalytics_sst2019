@@ -1,7 +1,7 @@
 ---
 title: "Nutzungsdaten offen publizieren"
 subtitle: ""
-author: 'Thomas Lo Russo <br> Datashop'
+author: 'Thomas Lo Russo <br> Fach- & Koordinationsstelle OGD'
 date: '12.11.2019 <br><br>
 <div class="contact">
 <a href="https://twitter.com/statistik_zh" style="text-decoration: none; border-bottom:"><i class="fa fa-twitter fa-fw"></i>@statistik_zh</a><br> 
@@ -38,7 +38,7 @@ class: middle, inverse
 ]
 
 ???
-Mein Beitrag dreht sich um Nutzungsdaten. Wir haben nun einiges zu OGD Strategie und punkto Publikation gehört. Aber wenn eine Strategie besteht und Daten bereits offen publiziert werden - vielleicht auch auf einem eigenen Portal - ist die Arbeit nicht getan. Es gilt, das Angebot laufend zu verbessern und sich den wandelnden Bedürfnissen der Nutzenden anzupassen. Daher haben wir damit begonnen, Nutzungsdaten unserer OGD auszuwerten. Um hinsichtlich Nachfrage unseres Angebots Transparenz zu schaffen, haben wir diese auch veröffentlicht. Für die Aufbereitung der Daten nutzen wir die offene Software R. Organisationen, die Daten via opendata.swiss publizieren steht es somit frei, unseren Code zu übernehmen und dasselbe zu tun wie wir.
+Mein Beitrag dreht sich um Nutzungsdaten. Wir haben nun einiges zu OGD Strategie und punkto Publikation gehört. Aber wenn eine Strategie besteht und Daten bereits offen publiziert werden - vielleicht auch auf einem eigenen Portal - ist die Arbeit nicht getan. Es gilt, das Angebot laufend zu verbessern und sich den wandelnden Bedürfnissen der Nutzenden anzupassen. Ein Instrument welches wir dafür hinzuziehen, sind Nutzungsdaten. Wie und warum - darüber werde ich Ihnen etwas erzählen.
 
 ---
 
@@ -68,7 +68,7 @@ class: center, middle, inverse, large
 ???
 Nun, wie können wir unser Angebot verbessern? Diese Frage beschäftigt uns täglich. Um dies zu tun, ist es notwendig, die Bedürfnisse der Nutzer*innen zu kennen. Aber wie können wir etwas über die Nutzendenbedürfnisse erfahren?
 
-Wir erfahren nur punktuell direkt von den Nutzenden, was sie sich wünschen. Wir bemühen uns laufend um Feedback. Aber es ist nur eine kleine Gruppe, die uns direkt Rückmeldungen gibt. Wie können wir - ohne enormen Aufwand - etwas über unsere Nutzenden auf opendata.swiss erfahren, um deren Bedürfnisse besser zu verstehen?
+Wir erfahren nur punktuell direkt von den Nutzenden, was sie sich wünschen. Wir bemühen uns laufend um Feedback. Aber es ist nur eine kleine Gruppe, die uns direkt Rückmeldungen gibt. Also wie können wir - ohne enormen Aufwand - etwas über unsere Nutzenden auf opendata.swiss erfahren, um deren Bedürfnisse besser zu verstehen?
 
 ---
 class: center, middle, inverse
@@ -83,7 +83,6 @@ class: center, middle, inverse
 ???
 
 Wir wissen nicht wer die Nutzenden genau sind, wir wissen nichts über ihre genauen Beweggründe. Doch hinterlassen sie Nutzungsspuren. Was wir tun können ist uns mit Hilfe von Webanalytics aus Spurensuche zu begeben und Indizien zu suchen.
-
 
 ---
 # Nutzungsdaten als OGD
@@ -101,21 +100,20 @@ Das Verhalten auf unserem Webauftritt kann uns helfen, Bedürfnisse zu identifiz
 ---
 class: inverse,center,middle
 
-# Was kann aus den Daten gelesen werden?
+# Was sagen uns die Nutzungsdaten?
 
 --
 
-Welche Datensätze & Themen interessieren am meisten?
+Welche Datensätze & Themen am meisten interessieren
 
 --
 
-Wie entwickelt sich das Interesse über die Zeit?
-
+Wie sich das Interesse über die Zeit entwickelt
 
 ???
-Was kann aus den Daten gelesen - in der jetzigen Form - gelesen werden? Wie oft unsere Datensätze auf Opendata.swiss aufgerufen wurden - d.h. wieviel Aufmerksamkeit sie erhalten haben. Nimmt das Interesse an den Daten zu? Welche Datensätze interessieren am meisten? Welche Themen? 
+Was kann aus den Daten gelesen - in der jetzigen Form - gelesen werden? Wie oft unsere Datensätze auf Opendata.swiss aufgerufen wurden - d.h. wieviel Aufmerksamkeit sie erhalten haben. Nimmt das Interesse an den Daten zu? Welche Datensätze interessieren am meisten? Welche Themen? Formate?
 
-Wobei könnte uns dies künftig helfen? Wenn wir Änderungen an gewissen Datensätzen vornehmen, besser einzuschätzen, ob viele von diesen Änderungen betroffen sind oder nicht. Um Aufwand und Ertrag abzuschätzen und Ressourcen effizient einzusetzen. Wenn gewisse Datensätze stark genutzt werden und wir die Gelegenheit haben, mit etwas Mehraufwand einen detaillierteren Datensatz zur Verfügung zu stellen oder zeitnäher zu aktualisieren etc. , lohnt sich dies eher. 
+Wobei könnte uns dies helfen? Wenn wir Änderungen an gewissen Datensätzen vornehmen, besser einzuschätzen, ob viele von diesen Änderungen betroffen sind oder nicht. Um Aufwand und Ertrag abzuschätzen und Ressourcen effizient einzusetzen. Wenn gewisse Datensätze stark genutzt werden und wir die Gelegenheit haben, mit etwas Mehraufwand einen detaillierteren Datensatz zur Verfügung zu stellen oder zeitnäher zu aktualisieren etc. abzuschätzen ob es sich lohnt. 
 
 ---
 # Datenquellen

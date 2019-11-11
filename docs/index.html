@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
   <head>
     <title>Nutzungsdaten offen publizieren</title>
-    <meta charset="utf-8">
-    <meta name="author" content="Thomas Lo Russo   Datashop" />
+    <meta charset="utf-8" />
+    <meta name="author" content="Thomas Lo Russo   Fach- &amp; Koordinationsstelle OGD" />
     <link rel="stylesheet" href="lib\zh_cd_white.css" type="text/css" />
     <link rel="stylesheet" href="https:\\cdnjs.cloudflare.com\ajax\libs\font-awesome\4.7.0\css\font-awesome.min.css" type="text/css" />
   </head>
@@ -12,7 +12,7 @@
 class: center, middle, inverse, title-slide
 
 # Nutzungsdaten offen publizieren
-### Thomas Lo Russo <br> Datashop
+### Thomas Lo Russo <br> Fach- &amp; Koordinationsstelle OGD
 ### 12.11.2019 <br><br>
 <div class="contact">
 <a href="https://twitter.com/statistik_zh" style="text-decoration: none; border-bottom:"><i class="fa fa-twitter fa-fw"></i><span class="citation">@statistik_zh</span></a><br> <a href="https://github.com/statistikZH"><i class="fa fa-github fa-fw"></i>Statistisches Amt Kanton Zürich</a><br> <a href="mailto:datashop@statistik.zh.ch"><i class="fa fa-paper-plane fa-fw"></i>datashop@statistik.zh.ch</a><br>
@@ -39,7 +39,7 @@ class: middle, inverse
 ]
 
 ???
-Mein Beitrag dreht sich um Nutzungsdaten. Wir haben nun einiges zu OGD Strategie und punkto Publikation gehört. Aber wenn eine Strategie besteht und Daten bereits offen publiziert werden - vielleicht auch auf einem eigenen Portal - ist die Arbeit nicht getan. Es gilt, das Angebot laufend zu verbessern und sich den wandelnden Bedürfnissen der Nutzenden anzupassen. Daher haben wir damit begonnen, Nutzungsdaten unserer OGD auszuwerten. Um hinsichtlich Nachfrage unseres Angebots Transparenz zu schaffen, haben wir diese auch veröffentlicht. Für die Aufbereitung der Daten nutzen wir die offene Software R. Organisationen, die Daten via opendata.swiss publizieren steht es somit frei, unseren Code zu übernehmen und dasselbe zu tun wie wir.
+Mein Beitrag dreht sich um Nutzungsdaten. Wir haben nun einiges zu OGD Strategie und punkto Publikation gehört. Aber wenn eine Strategie besteht und Daten bereits offen publiziert werden - vielleicht auch auf einem eigenen Portal - ist die Arbeit nicht getan. Es gilt, das Angebot laufend zu verbessern und sich den wandelnden Bedürfnissen der Nutzenden anzupassen. Ein Instrument welches wir dafür hinzuziehen, sind Nutzungsdaten. Wie und warum - darüber werde ich Ihnen etwas erzählen.
 
 ---
 
@@ -69,7 +69,7 @@ class: center, middle, inverse, large
 ???
 Nun, wie können wir unser Angebot verbessern? Diese Frage beschäftigt uns täglich. Um dies zu tun, ist es notwendig, die Bedürfnisse der Nutzer*innen zu kennen. Aber wie können wir etwas über die Nutzendenbedürfnisse erfahren?
 
-Wir erfahren nur punktuell direkt von den Nutzenden, was sie sich wünschen. Wir bemühen uns laufend um Feedback. Aber es ist nur eine kleine Gruppe, die uns direkt Rückmeldungen gibt. Wie können wir - ohne enormen Aufwand - etwas über unsere Nutzenden auf opendata.swiss erfahren, um deren Bedürfnisse besser zu verstehen?
+Wir erfahren nur punktuell direkt von den Nutzenden, was sie sich wünschen. Wir bemühen uns laufend um Feedback. Aber es ist nur eine kleine Gruppe, die uns direkt Rückmeldungen gibt. Also wie können wir - ohne enormen Aufwand - etwas über unsere Nutzenden auf opendata.swiss erfahren, um deren Bedürfnisse besser zu verstehen?
 
 ---
 class: center, middle, inverse
@@ -84,7 +84,6 @@ class: center, middle, inverse
 ???
 
 Wir wissen nicht wer die Nutzenden genau sind, wir wissen nichts über ihre genauen Beweggründe. Doch hinterlassen sie Nutzungsspuren. Was wir tun können ist uns mit Hilfe von Webanalytics aus Spurensuche zu begeben und Indizien zu suchen.
-
 
 ---
 # Nutzungsdaten als OGD
@@ -102,21 +101,20 @@ Das Verhalten auf unserem Webauftritt kann uns helfen, Bedürfnisse zu identifiz
 ---
 class: inverse,center,middle
 
-# Was kann aus den Daten gelesen werden?
+# Was sagen uns die Nutzungsdaten?
 
 --
 
-Welche Datensätze &amp; Themen interessieren am meisten?
+Welche Datensätze &amp; Themen am meisten interessieren
 
 --
 
-Wie entwickelt sich das Interesse über die Zeit?
-
+Wie sich das Interesse über die Zeit entwickelt
 
 ???
-Was kann aus den Daten gelesen - in der jetzigen Form - gelesen werden? Wie oft unsere Datensätze auf Opendata.swiss aufgerufen wurden - d.h. wieviel Aufmerksamkeit sie erhalten haben. Nimmt das Interesse an den Daten zu? Welche Datensätze interessieren am meisten? Welche Themen? 
+Was kann aus den Daten gelesen - in der jetzigen Form - gelesen werden? Wie oft unsere Datensätze auf Opendata.swiss aufgerufen wurden - d.h. wieviel Aufmerksamkeit sie erhalten haben. Nimmt das Interesse an den Daten zu? Welche Datensätze interessieren am meisten? Welche Themen? Formate?
 
-Wobei könnte uns dies künftig helfen? Wenn wir Änderungen an gewissen Datensätzen vornehmen, besser einzuschätzen, ob viele von diesen Änderungen betroffen sind oder nicht. Um Aufwand und Ertrag abzuschätzen und Ressourcen effizient einzusetzen. Wenn gewisse Datensätze stark genutzt werden und wir die Gelegenheit haben, mit etwas Mehraufwand einen detaillierteren Datensatz zur Verfügung zu stellen oder zeitnäher zu aktualisieren etc. , lohnt sich dies eher. 
+Wobei könnte uns dies helfen? Wenn wir Änderungen an gewissen Datensätzen vornehmen, besser einzuschätzen, ob viele von diesen Änderungen betroffen sind oder nicht. Um Aufwand und Ertrag abzuschätzen und Ressourcen effizient einzusetzen. Wenn gewisse Datensätze stark genutzt werden und wir die Gelegenheit haben, mit etwas Mehraufwand einen detaillierteren Datensatz zur Verfügung zu stellen oder zeitnäher zu aktualisieren etc. abzuschätzen ob es sich lohnt. 
 
 ---
 # Datenquellen
@@ -211,6 +209,7 @@ Wir erwarten euch am nächsten Open Data Beer in Zürich!
 
 https://opendatabeer.ch/
     </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
 <script>var slideshow = remark.create({
 "highlightStyle": "github",
@@ -221,16 +220,74 @@ https://opendatabeer.ch/
 if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
   window.dispatchEvent(new Event('resize'));
 });
-(function() {
-  var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
   if (!r) return;
   s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
   d.head.appendChild(s);
-})();</script>
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
 
 <script>
 (function() {
-  var i, text, code, codes = document.getElementsByTagName('code');
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
   for (i = 0; i < codes.length;) {
     code = codes[i];
     if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
@@ -244,14 +301,15 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     }
     i++;
   }
-})();
+};
+slideshow._releaseMath(document);
 </script>
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
 (function () {
   var script = document.createElement('script');
   script.type = 'text/javascript';
-  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
   if (location.protocol !== 'file:' && /^https?:/.test(script.src))
     script.src  = script.src.replace(/^https?:/, '');
   document.getElementsByTagName('head')[0].appendChild(script);
