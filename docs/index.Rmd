@@ -23,6 +23,9 @@ class: middle, inverse
 # Slides
 https://tinyurl.com/openzh
 
+???
+Mein Beitrag dreht sich um Nutzungsdaten. Wir haben nun einiges zu OGD Strategie und punkto Publikation gehört. Aber wenn eine Strategie besteht und Daten bereits offen publiziert werden - vielleicht auch auf einem eigenen Portal - ist die Arbeit nicht getan. Es gilt, das Angebot laufend zu verbessern und sich den wandelnden Bedürfnissen der Nutzenden anzupassen. Ein Instrument welches wir dafür hinzuziehen, sind Nutzungsdaten. Wie und warum - darüber werde ich Ihnen etwas erzählen.
+
 ---
 class: middle, inverse
 
@@ -41,9 +44,6 @@ class: middle, inverse
 5. Ausblick
 
 ]
-
-???
-Mein Beitrag dreht sich um Nutzungsdaten. Wir haben nun einiges zu OGD Strategie und punkto Publikation gehört. Aber wenn eine Strategie besteht und Daten bereits offen publiziert werden - vielleicht auch auf einem eigenen Portal - ist die Arbeit nicht getan. Es gilt, das Angebot laufend zu verbessern und sich den wandelnden Bedürfnissen der Nutzenden anzupassen. Ein Instrument welches wir dafür hinzuziehen, sind Nutzungsdaten. Wie und warum - darüber werde ich Ihnen etwas erzählen.
 
 ---
 
