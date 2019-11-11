@@ -10,6 +10,14 @@ body { font-family: 'helvetica','Lucida Console', 'Source Code Pro', 'Droid Seri
 	line-height:120%;
 }
 
+.remark-slide-content:not(.title-slide):not(.inverse):not(.zhcyan){
+  background-image: url(logo.png);
+  background-position: 2% 7%;
+  background-size: 55px;
+  padding-left: 100px;  /* delete this for 4:3 aspect ratio */
+}
+
+
 p {
   font-size:28pt;
   line-height:120%;
@@ -112,7 +120,22 @@ hr {
 
 
 .inverse {
+  background-image: url(logowhite.png);
+  background-position: 2% 7%;
+  background-size: 55px;
+  padding-left: 100px;  /* delete this for 4:3 aspect ratio */
   background-color: #272822;
+  color: white;
+  /*text-shadow: 0 0 10px #333;*/
+  text-decoration: none;
+}
+
+.zhcyan {
+  background-image: url(logowhite.png);
+  background-position: 2% 7%;
+  background-size: 55px;
+  padding-left: 100px;  /* delete this for 4:3 aspect ratio */
+  background-color: #009ee0;
   color: white;
   /*text-shadow: 0 0 10px #333;*/
   text-decoration: none;
