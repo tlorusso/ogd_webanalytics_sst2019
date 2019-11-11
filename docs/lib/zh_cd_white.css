@@ -4,28 +4,34 @@
 
 
 body { font-family: 'helvetica','Lucida Console', 'Source Code Pro', 'Droid Serif', 'Palatino Linotype';
-    font-size: 18pt;
+    font-size: 28pt;
     font-weight: normal;
     color: black;
+	line-height:120%;
+}
+
+p {
+  font-size:28pt;
+  line-height:120%;
 }
 
 h1 {
   font-family:'helvetica', 'Yanone Kaffeesatz';
   font-weight: bold;
-  font-size: 36pt;
+  font-size: 39pt;
 }
 
 h2 {
   font-family:'helvetica', 'Yanone Kaffeesatz';
   font-weight: normal;
-  font-size: 30pt;
+  font-size: 32pt;
 }
 
 h3 {
   font-family: 'helvetica','Yanone Kaffeesatz';
   font-weight: normal;
   color:  #009ee0;
-  font-size: 22pt;
+  font-size: 28pt;
 }
 
 bullets {font-family: 'helvetica','Lucida Console';
@@ -51,7 +57,7 @@ ul > li:before {
 a, a > code {
   color: #009ee0;
   text-decoration: none;
-  font-size: 15pt;
+ /* font-size: 15pt;*/
 }
 
 code { /* changes inline code highlighting */
@@ -87,9 +93,12 @@ hr {
 }
 
 .remark-slide-number {
-    font-size: 10pt;
-  color: #009ee0; 
-  opacity: 0;  } 
+    font-size: 14pt;
+  color: #009ee0;  } 
+
+.inverse .remark-slide-number  {
+    font-size: 14pt;
+  color: #fff;  } 
 
 
 .footnote {

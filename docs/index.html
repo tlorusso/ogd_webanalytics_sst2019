@@ -27,9 +27,13 @@ class: middle, inverse
 .large[
 
 1. OGD Angebot des Kantons Zürich
+
 2. Wieso analysieren und publizieren wir Nutzungsdaten?
+
 3. Datenquellen
+
 4. Das Webanalytics-Dashboard
+
 5. Ausblick
 
 ]
@@ -95,20 +99,27 @@ Wir wissen nicht wer die Nutzenden genau sind, wir wissen nichts über ihre gena
 ---
 # Nutzungsdaten als OGD
 
-.large[
 
-Die Analyse der Nutzungsdaten soll es uns ermöglichen, besser fundierte Entscheide betreffend der Weiterentwicklung unseres Datenangebots zu fällen. Um die Daten einfach analysieren zu können müssen wir diese aufbereiten. Den dementsprechenden Datensatz stellen wir seit Februar 2019 monatlich 1:1 als opendata zur Verfügung.
+Die Nutzungsdaten sollen uns besser fundierte Entscheide betreffend Weiterentwicklung unseres Datenangebots ermöglichen. 
+
+Um diese einfach analysieren zu können müssen wir diese aufbereiten. Den dementsprechenden Datensatz stellen wir seit Februar 2019 monatlich 1:1 als opendata zur Verfügung:
 
 [Datensatz auf opendata.swiss](https://opendata.swiss/de/dataset/web-analytics-der-open-government-data-des-kantons-zuerich)
 
-## Was kann aus den Daten gelesen werden?
 
-- Welche Datensätze / Themen interessieren am meisten?
-- Wie entwickelt sich das Interesse über die Zeit?
+---
+class: inverse,center,middle
 
-]
+# Was kann aus den Daten gelesen werden?
 
-__R-Code für die Aufbereitung :__ &lt;a href="https://github.com/openZH/web-analytics-der-open-government-data-des-kantons-zuerich"&gt;&lt;i class="fa fa-github fa-fw"&gt;&lt;/i&gt;openzh_webanalytics&lt;/a&gt;
+--
+
+Welche Datensätze &amp; Themen interessieren am meisten?
+
+--
+
+Wie entwickelt sich das Interesse über die Zeit?
+
 
 ???
 
@@ -121,30 +132,36 @@ Wobei könnte uns dies künftig helfen? Wenn wir Änderungen an gewissen Datens�
 ---
 # Datenquellen
 
-.large[
-
 ### Web-Analytics
 
 Bezug via API der Webanalyse-Plattform (https://matomo.org) des Metadaten-Katalogs opendata.swiss. 
 
 ⇒ nur für Organisationen zugänglich, die Metadaten auf bzw. via opendata.swiss publizieren.
 
-]
 
---
-
+---
+# Datenquellen
 ### Metadaten
 
-.large[
 
 Anreicherung durch zusätzliche Angaben via CKAN Action API des Metadaten-Katalogs opendata.swiss. 
 
-⇒ offen zugängliche Schnittstelle: https://handbook.opendata.swiss/support/api.html
-]
+⇒ offen zugängliche Schnittstelle: 
+
+https://handbook.opendata.swiss/support/api.html
 
 ???
 
 Via R steuern wir zwei APIs an um die Daten zusammenzustellen. 
+
+---
+class: center, middle, inverse
+
+
+# R-Code für die Datenaufbereitung
+
+&lt;a href="https://github.com/openZH/web-analytics-der-open-government-data-des-kantons-zuerich"&gt;&lt;i class="fa fa-github fa-fw"&gt;&lt;/i&gt;openzh_webanalytics&lt;/a&gt;
+
 
 
 ---
@@ -152,17 +169,12 @@ class: center, middle, inverse
 
 # OpenZH Dashboard
 
-.large[
 
 Die Webanalytics sind auch via Web-Applikation frei zugänglich. Das __OpenZH-Dashboard__ *BETA* wird durch unseren Datensatz auf opendata.swiss gespiesen:
 
-]
-
 https://openzh.shinyapps.io/openzh_dashboard
 
-__Source Code__
-
-&lt;a href="https://github.com/openZH/openzh_dashboard"&gt;&lt;i class="fa fa-github fa-fw"&gt;&lt;/i&gt;openzh_dashboard&lt;/a&gt;
+__Source Code__: &lt;a href="https://github.com/openZH/openzh_dashboard"&gt;&lt;i class="fa fa-github fa-fw"&gt;&lt;/i&gt;openzh_dashboard&lt;/a&gt;
 
 
 &lt;div&gt;
@@ -180,7 +192,6 @@ class: middle, inverse
 
 # Ausblick
 
-.large[
 
 1. Integration der Download-Statistiken der Ressourcen (bei uns gehostet)
 
@@ -188,7 +199,6 @@ class: middle, inverse
 
 3. Übernahme durch weitere Organisationen?
 
-]
 
 ---
 class: center, middle, inverse
